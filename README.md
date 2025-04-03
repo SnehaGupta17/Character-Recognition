@@ -24,25 +24,25 @@ For example:
 <dataset_path> ---> ./recognizer Devanagari-Dataset/Reference-Images/  <br>
 <test_image_path> ---> Devanagari-Dataset/Testcases/char1.png 
 
-1) The first g++ command will compile your code, link all required opencv files, headers, and finally provide you with an executable file named “recognizer” 
-2) In the second command, 
-  a) ./recognizer implies running the executable file “recognizer” 
-  b) Next, /home/Devanagari-Dataset/Reference-Images/ is the directory containing all the reference images for Devanagari characters 
-  c) Lastly, /home/Devanagari-Dataset/Testcases/char1.png is the test image file path 
+1) The first g++ command will compile your code, link all required opencv files, headers, and finally provide you with an executable file named “recognizer” <br>
+2) In the second command, <br>
+  a) ./recognizer implies running the executable file “recognizer” <br>
+  b) Next, /home/Devanagari-Dataset/Reference-Images/ is the directory containing all the reference images for Devanagari characters <br>
+  c) Lastly, /home/Devanagari-Dataset/Testcases/char1.png is the test image file path <br>
       If the provided test image is:
      ![char1](https://github.com/user-attachments/assets/9602597d-07d4-4788-a20a-b4b3c02d4dca)
 
-      <br>The following output is expected to be printed on the screen: <br><br>
+      <br>The following output is expected to be printed on the screen: <br>
       Character: क
-   
-There are required Supporting Code Files: 
-● Reference Image Files will be provided 
-● Test Image Files will be provided for tallying the code output 
-● ReadME Doc for using opencv constructs: imread(), Mat Class 
-● Driver Code 
-
-Files to be Submitted: 
-    ● recognizer.h  
-      You need to declare Classes, their data members and methods, and/or any other methods if required. 
-    ● recognizer.cpp  
+   <br><br>
+There are required Supporting Code Files: <br>
+● Reference Image Files will be provided <br>
+● Test Image Files will be provided for tallying the code output <br>
+● ReadME Doc for using opencv constructs: imread(), Mat Class <br>
+● Driver Code <br>
+<br>
+Files to be Submitted: <br>
+    ● recognizer.h  <br>
+      You need to declare Classes, their data members and methods, and/or any other methods if required. <br>
+    ● recognizer.cpp  <br>
       You need to implement the “recognize()” method and the methods mentioned in the recognizer.h file (if any). 
