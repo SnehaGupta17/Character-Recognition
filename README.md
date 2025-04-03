@@ -21,11 +21,11 @@ g++ -o recognizer main.cpp recognizer.cpp `pkg-config --cflags --libs opencv4`
 Devanagari-Dataset/Testcases/char1.png 
 
 Here,  
-<dataset_path> is the directory path containing all the reference images of characters. 
+<dataset_path> is the directory path containing all the reference images of characters. <br>
 <test_image_path> is the test image file path 
 
 For example: 
-<dataset_path> ---> ./recognizer Devanagari-Dataset/Reference-Images/ 
+<dataset_path> ---> ./recognizer Devanagari-Dataset/Reference-Images/  <br>
 <test_image_path> ---> Devanagari-Dataset/Testcases/char1.png 
 
 1) The first g++ command will compile your code, link all required opencv files, headers, and finally provide you with an executable file named “recognizer” 
