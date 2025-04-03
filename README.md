@@ -1,21 +1,17 @@
 # CHARACTER RECOGNITION PROJECT 
 
 ## Problem Statement: 
-Given an image of a hand-drawn Devanagari character, you have to recognize the character and display a ‘text output’ corresponding to that character on the screen.  
+### Given an image of a hand-drawn Devanagari character, you have to recognize the character and display a ‘text output’ corresponding to that character on the screen.  
 
 For example, given the following image: 
 ![char1](https://github.com/user-attachments/assets/847b699c-1d04-40b1-be5e-b2653b953823)
-
-You must print to the screen the following text output that corresponds to the 
-given character: क 
+<br>You must print to the screen the following text output that corresponds to the given character: क 
 
 Another example, given the following image: 
 ![char2](https://github.com/user-attachments/assets/bef3166d-1b14-48fa-a4e1-a7b6b540b65e)
+<br>You must print to the screen the following text output that looks like the given character: प 
 
-You must print to the screen the following text output that looks like the given 
-character: प 
-
-Type the following commands in the terminal to run your code: 
+### Type the following commands in the terminal to run your code: 
 g++ -o recognizer main.cpp recognizer.cpp `pkg-config --cflags --libs opencv4` 
 ./recognizer Devanagari-Dataset/Reference-Images/ 
 Devanagari-Dataset/Testcases/char1.png 
@@ -36,7 +32,7 @@ For example:
       If the provided test image is:
      ![char1](https://github.com/user-attachments/assets/9602597d-07d4-4788-a20a-b4b3c02d4dca)
 
-      The following output is expected to be printed on the screen: 
+      <br>The following output is expected to be printed on the screen: <br><br>
       Character: क
    
 There are required Supporting Code Files: 
