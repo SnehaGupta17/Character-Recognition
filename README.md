@@ -29,12 +29,13 @@ For example:
   a) ./recognizer implies running the executable file “recognizer” <br>
   b) Next, /home/Devanagari-Dataset/Reference-Images/ is the directory containing all the reference images for Devanagari characters <br>
   c) Lastly, /home/Devanagari-Dataset/Testcases/char1.png is the test image file path <br><br>
-      If the provided test image is:
-     ![char1](https://github.com/user-attachments/assets/9602597d-07d4-4788-a20a-b4b3c02d4dca)
 
-      The following output is expected to be printed on the screen: <br>
-      Character: क
-   <br><br>
+If the provided test image is:
+![char1](https://github.com/user-attachments/assets/9602597d-07d4-4788-a20a-b4b3c02d4dca)
+
+The following output is expected to be printed on the screen: <br>
+Character: क
+<br><br>
 There are required Supporting Code Files: <br>
 ● Reference Image Files will be provided <br>
 ● Test Image Files will be provided for tallying the code output <br>
