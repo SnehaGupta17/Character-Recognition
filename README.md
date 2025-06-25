@@ -1,4 +1,4 @@
-# CHARACTER RECOGNITION PROJECT 
+# DEVANAGARI CHARACTER RECOGNITION PROJECT 
 
 ## Problem Statement: 
 ### Given an image of a hand-drawn Devanagari character, you have to recognize the character and display a ‘text output’ corresponding to that character on the screen.  
